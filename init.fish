@@ -2,6 +2,7 @@
 
 fisher install \
     oh-my-fish/theme-bobthefish \
+    dracula/fish \
     PatrickF1/fzf.fish \
     jethrokuan/z \
 
