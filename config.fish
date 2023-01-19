@@ -18,15 +18,8 @@ fish_add_path \
     /opt/homebrew/bin \
     /opt/homebrew/sbin \
 
-### fzf
-# set -U FZF_DEFAULT_OPTS "--reverse --inline-info"
-
 ### Key Binding
-_fzf_uninstall # fzf.fishのキーバインドを削除
 function fish_user_key_bindings
-    # bind \cr peco_select_history
-    # bind \cd peco_select_z
-    bind \cr __fzf_reverse_isearch
-    bind \cd __fzf_cd
-    bind \cf __fzf_find_file
+    # キーバインドを追加
 end
+fzf_configure_bindings --directory=\cf --git_status=\cs --git_log=\cl

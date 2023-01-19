@@ -2,7 +2,7 @@
 
 fisher install \
     oh-my-fish/theme-bobthefish \
-    jethrokuan/fzf \
+    PatrickF1/fzf.fish \
     jethrokuan/z \
 
 set -l CURRENT (realpath (status dirname))
