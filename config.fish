@@ -15,8 +15,8 @@ set -g theme_newline_prompt '$ '
 
 ### Paths
 fish_add_path \
-    /opt/homebrew/bin \
-    /opt/homebrew/sbin \
+    (brew --prefix)/bin \
+    (brew --prefix)/sbin \
 
 ### Key Binding
 function fish_user_key_bindings
