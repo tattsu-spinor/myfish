@@ -13,11 +13,6 @@ set -g fish_prompt_pwd_dir_length 0
 set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
 
-### Paths
-fish_add_path \
-    (brew --prefix)/bin \
-    (brew --prefix)/sbin \
-
 ### Key Binding
 function fish_user_key_bindings
     # キーバインドを追加
