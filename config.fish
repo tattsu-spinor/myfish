@@ -13,8 +13,7 @@ set -g fish_prompt_pwd_dir_length 0
 set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
 
-### Key Binding
+### Key Bindings
 function fish_user_key_bindings
-    # キーバインドを追加
+    fzf_configure_bindings --directory=\cf --git_status=\cs --git_log=\cl
 end
-fzf_configure_bindings --directory=\cf --git_status=\cs --git_log=\cl
