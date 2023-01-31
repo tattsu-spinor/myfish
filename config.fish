@@ -6,6 +6,7 @@ set -g theme_title_display_process yes
 # set -g theme_display_hostname yes
 # set -g theme_display_sudo_user yes
 set -g theme_date_format "+%Y/%m/%d %a %H:%M:%S"
+set -g theme_nerd_fonts yes
 set -g theme_show_exit_status yes
 set -g theme_display_jobs_verbose yes
 set -g theme_color_scheme dracula
