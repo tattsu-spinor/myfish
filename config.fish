@@ -1,4 +1,7 @@
-### Theme (bobthefish)
+### Theme (Dracula)
+fish_config theme choose "Dracula Official"
+
+### Prompt (bobthefish)
 set -g theme_display_git_default_branch yes
 set -g theme_display_docker_machine yes
 set -g theme_title_display_process yes
