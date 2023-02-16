@@ -9,7 +9,7 @@ function _fzf_search_z --description "Search z list. Change current directory to
     set commands_selected (
         # Reference https://devhints.io/strftime to understand strftime format symbols
         z --list |
-        string replace -a -r "\S+\s+" "" |
+        string replace -a -r "\S+\s+/" "/" |
         string join0 |
         _fzf_wrapper --read0 \
             --print0 \
