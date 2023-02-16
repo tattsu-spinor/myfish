@@ -19,5 +19,11 @@ set -g theme_newline_prompt '$ '
 
 ### Key Bindings
 function fish_user_key_bindings
-    fzf_configure_bindings --directory=\cf --git_status=\cs --git_log=\cl
+    fzf_configure_bindings \
+        --history=\cr \
+        --directory=\cf \
+        --git_status=\cs \
+        --git_log=\cl \
+
+    bind \cz _fzf_search_z
 end
