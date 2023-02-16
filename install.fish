@@ -5,6 +5,7 @@ fisher install \
     dracula/fish \
     PatrickF1/fzf.fish \
     jethrokuan/z \
+    0rax/fish-bd \
 
 set -l CURRENT (realpath (status dirname))
 set -l FISH ~/.config/fish
