@@ -13,9 +13,9 @@
 
 ## 初期設定
 
-1. fisher, fzf, bat, fd, zをインストールする。
+1. Homebrewでfisher, fzf, bat, fdをインストールする。
 2. このレポジトリを任意の場所にcloneする。
-3. `./init.fish`を実行する。
+3. `./install.fish`を実行する。
 4. `fish`でシェルを再起動すれば完了。
 
 ## カスタム設定
