@@ -1,17 +1,17 @@
 #!/usr/bin/env fish
 
 fisher install \
-    oh-my-fish/theme-bobthefish \
     dracula/fish \
     PatrickF1/fzf.fish \
     jethrokuan/z \
     0rax/fish-bd \
 
 set -l MYFISH_PATH (realpath (status dirname))
-set -l FISH_PATH ~/.config/fish
 
-ln -fsv $MYFISH_PATH/config.fish $FISH_PATH
+ln -fsv $MYFISH_PATH/config.fish ~/.config/fish
 
 for file in $MYFISH_PATH/functions/*.fish
-    ln -fsv $file $FISH_PATH/functions
+    ln -fsv $file ~/.config/fish/functions
 end
+
+ln -fsv $MYFISH_PATH/mytheme.omp.json ~/.config

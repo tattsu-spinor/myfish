@@ -13,12 +13,18 @@
 
 ## 初期設定
 
-1. Homebrewでfisher, fzf, bat, fdをインストールする。
+1. Homebrewで以下のパッケージをインストールする:
+    - fisher (プラグインマネージャ)
+    - oh-my-posh (プロンプトマネージャ)
+    - fzf (曖昧検索)
+    - bat (高級なcat)
+    - fd (高級なfind)
 2. このレポジトリを任意の場所にcloneする。
 3. `./install.fish`を実行する。
-4. `fish`でシェルを再起動すれば完了。
+4. `exec fish`でシェルを再起動すれば完了。
 
 ## カスタム設定
+
 - ~/.config/fish/conf.d以下にpath.fishやjava.fishなどを作成して、各種設定を行う。
 
 ## よく使うコマンド
