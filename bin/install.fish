@@ -6,7 +6,7 @@ fisher install \
     jethrokuan/z \
     0rax/fish-bd \
 
-set -l MYFISH_PATH (realpath (status dirname))
+set -l MYFISH_PATH (realpath (status dirname)/..)
 
 ln -fsv $MYFISH_PATH/config.fish ~/.config/fish
 

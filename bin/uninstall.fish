@@ -6,7 +6,7 @@ fisher remove \
     jethrokuan/z \
     0rax/fish-bd \
 
-set -l MYFISH_PATH (realpath (status dirname))
+set -l MYFISH_PATH (realpath (status dirname)/..)
 
 rm -fv ~/.config/fish/config.fish
 
