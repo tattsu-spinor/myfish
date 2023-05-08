@@ -13,14 +13,8 @@
 
 ## 初期設定
 
-1. Homebrewで以下のパッケージをインストールする:
-    - fisher (プラグインマネージャ)
-    - oh-my-posh (プロンプトマネージャ)
-    - fzf (曖昧検索)
-    - bat (高級なcat)
-    - fd (高級なfind)
-    - zoxide (高級なcd)
-2. このレポジトリを任意の場所にcloneする。
+1. このレポジトリを任意の場所にcloneし、ルートディレクトリにcdする。
+2. `brew bundle`を実行する。
 3. `bin/install.fish`を実行する。
 4. `exec fish`でシェルを再起動すれば完了。
 
