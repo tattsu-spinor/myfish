@@ -7,5 +7,5 @@ fisher install \
 
 set -l MYFISH_PATH (realpath (status dirname)/..)
 
-ln -fsv $MYFISH_PATH/config.fish ~/.config/fish
-ln -fsv $MYFISH_PATH/mytheme.omp.json ~/.config
+ln -fsv $MYFISH_PATH/config.fish $HOME/.config/fish
+ln -fsv $MYFISH_PATH/mytheme $HOME/.config

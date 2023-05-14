@@ -2,7 +2,7 @@
 fish_config theme choose "Dracula Official"
 
 ### Prompt (oh-my-posh)
-oh-my-posh init fish --config ~/.config/mytheme.omp.json --manual | source
+oh-my-posh init fish --config $HOME/.config/mytheme/powerlevel10k.omp.json --manual | source
 oh-my-posh completion fish | source
 
 ### zoxide
