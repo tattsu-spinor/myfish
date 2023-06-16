@@ -11,9 +11,11 @@ zoxide init fish | source
 ### Key Bindings
 function fish_user_key_bindings
     fzf_configure_bindings \
-        --history=\cr \
-        --directory=\cf \
-        --git_status=\cs \
-        --git_log=\cl \
+        --directory=\eF \
+        --git_status=\eS \
+        --git_log=\eL \
+        --history=\cR \
+        --processes=\eP \
+        --variables=\cV \
 
 end
