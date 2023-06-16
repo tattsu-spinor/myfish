@@ -1,4 +1,4 @@
-# myfish
+# MyFish
 
 ## fishについて
 
