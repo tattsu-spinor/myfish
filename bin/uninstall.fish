@@ -8,4 +8,3 @@ fisher remove \
 set -l MYFISH_PATH (realpath (status dirname)/..)
 
 rm -fv $HOME/.config/fish/config.fish
-rm -fv $HOME/.config/mytheme
